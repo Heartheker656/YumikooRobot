@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from DAXXROBOT import OWNER_ID, dispatcher
 from DAXXROBOT import pbot as client
 
-DAXX = "https://graph.org/file/22f4ce50778692e31a3b8.jpg"
+DAXX = "https://telegra.ph/file/a4e1a354023473403dd4c.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -24,17 +24,17 @@ async def repo(client, message):
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
 **» ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**ɢʀᴏᴜᴘ ✘ ᴄᴏɴᴛʀᴏʟʟᴇʀ sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**ᴍᴀᴅᴇ ʙʏ sʜᴀʟɪɴɪ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴏᴡɴᴇʀ ",user_id=OWNER_ID
+                        "• ᴏᴡɴᴇʀ •",user_id=OWNER_ID
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/daxxsir3",
+                        url="https://t.me/shalini_shalu_96",
                     ),
                 ]
             ]
